@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1400px) {
+    ul{
+        padding-left: 0!important;
+    }
+    .services-inner-bg {
+        padding: 2.5em;
+        background: black;
+        position: relative;
+        border-radius: 4%;
+    }
+    .services-icon {
+        height: 36%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 36%;
+        top: -5em;
+        left: 7.5em;
+        background: black;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 999;
+        top: 25em;
+    }
+  }
+
+  @media only screen and (max-width: 1250px){
+
+    .services-icon {
+        height: 36%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 36%;
+        top: -4em;
+        left: 6.3em;
+        background: black;
+    }
+    .services-inner-bg {
+        padding: 13px;
+        background: black;
+        position: relative;
+        border-radius: 4%;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 999;
+        top: 20em;
+    }
+  }
+  @media only screen and (max-width: 768px){
+      .services-margin{
+          margin-bottom: 6em;
+      }
+      .services-icon {
+        height: 36%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 22%;
+        top: -4em;
+        left: 12.3em;
+        background: black;
+    }
+    .text-center.form-wrrpr {
+        width: 450px;
+        margin: auto;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 999;
+        top: 25em;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 9999!important;
+        top: 20em;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .text-center.form-wrrpr {
+        width: 300px;
+        margin: auto;
+    }
+    .services-icon {
+        height: 36%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 26%;
+        top: -4em;
+        left: 10em;
+        background: black;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 9999!important;
+        top: 20em;
+    }
+    .top-btn {
+        position: absolute;
+        width: 200;
+        top: 47%;
+        z-index: -1;
+        left: 22%;
+    }
+    
+  }
+  @media only screen and (max-width: 400px) {
+    .services-icon {
+        height: 36%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        top: -4em;
+        left: 7em;
+        background: black;
+    }
+    .inner-chatbot {
+        position: fixed;
+        right: 2em;
+        z-index: 9999!important;
+        top: 20em;
+    }
+  }
